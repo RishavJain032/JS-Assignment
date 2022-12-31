@@ -1,0 +1,41 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+  body {
+    width: 100vw;
+    height: 100vh;
+
+  }
+
+  .maincontainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .icon {
+    position: absolute;
+    width: 100%;
+    height: 15%;
+    top: 40%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+  }
+
+  i{
+    font-size: 5rem;
+    color: black;
+    padding: 0.5rem;
+  }
